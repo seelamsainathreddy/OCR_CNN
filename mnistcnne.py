@@ -1,7 +1,5 @@
-'''Trains a simple convnet on the MNIST dataset.
-Gets to 99.25% test accuracy after 12 epochs
-(there is still a lot of margin for parameter tuning).
-16 seconds per epoch on a GRID K520 GPU.
+'''this trains a conv net by increasing the hyper parameters(number of feature layers)
+and draws a graph to justify the number of features
 '''
 from __future__ import print_function
 import sys
